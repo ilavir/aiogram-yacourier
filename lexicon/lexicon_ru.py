@@ -18,7 +18,10 @@ LEXICON_RU: dict[str, str] = {
 }
 
 LEXICON_FAQ_RU: dict[str, str] = {
-    'faq_1': 'Как оформить заказ?asdasdas'
+    'faq_1': 'Как оформить заказ?1',
+    'faq_2': 'Как оформить заказ?2',
+    'faq_3': 'Как оформить заказ?3',
+    'faq_4': 'Как оформить заказ?4'
 }
 
 LEXICON_COMMANDS_RU: dict[str, str] = {

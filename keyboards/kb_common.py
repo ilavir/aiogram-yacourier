@@ -28,6 +28,5 @@ def create_faq_keyboard() -> InlineKeyboardMarkup:
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[[InlineKeyboardButton(text=value, callback_data=key)] for key, value in LEXICON_FAQ_KB_RU.items()]
     )
-    # for key, value in LEXICON_FAQ_KB_RU.items():
-    #     keyboard.insert(InlineKeyboardButton(text=value, callback_data=key))
+
     return keyboard
