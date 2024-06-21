@@ -22,6 +22,7 @@ async def on_startup(bot: Bot):
     await set_main_menu(bot)
     # await bot.send_message(config.admin_id, text='Бот запущен!')
 
+
 async def on_shutdown(bot: Bot):
     # await bot.send_message(config.admin_id, text='Бот остановлен!')
     pass
